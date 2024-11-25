@@ -19,9 +19,6 @@ public class PetController {
     @Autowired
     PetService petservice;
 
-    @Autowired
-    PetRepo repo;
-
    @GetMapping("/homePage")
    public String homePage(){
        return "homePage";
